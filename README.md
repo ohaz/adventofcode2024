@@ -1,4 +1,4 @@
-# adventofcode2025
+# adventofcode2024
 Trying out deno
 
 ## Requirements
