@@ -58,8 +58,7 @@ function isSafe(f: number[]): boolean {
     }
     return merged;
   }, []);
-  return (gradient.every((m) => m > 0)
-          || gradient.every((m) => m < 0))
+  return (gradient.every((m) => m > 0) || gradient.every((m) => m < 0))
           && !gradient.some((m) => Math.abs(m) < 1 || Math.abs(m) > 3);
 }
 
