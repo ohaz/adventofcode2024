@@ -18,13 +18,13 @@ function day1p1(): number {
       const [l, r] = line.split(/\s+/);
       left.push(+l);
       right.push(+r);
-    }
-  )
+    },
+  );
   const sortedLeft = left.sort((n1, n2) => n1 - n2);
   const sortedRight = right.sort((n1, n2) => n1 - n2);
   const zip = (a: number[], b: number[]) => a.map((k, i) => [k, b[i]]);
   return zip(sortedLeft, sortedRight).reduce((accumulator, values) => {
-      return accumulator + Math.max(...values) - Math.min(...values);
+    return accumulator + Math.max(...values) - Math.min(...values);
   }, 0);
 }
 
@@ -46,16 +46,16 @@ function day1p2(): number {
       const [l, r] = line.split(/\s+/);
       left.push(+l);
       right.push(+r);
-    }
-  )
+    },
+  );
   return left.map<number>(
-    (value) => value * right.filter(x => x === value).length
+    (value) => value * right.filter((x) => x === value).length,
   ).reduce(
-    (accumulator: number, value: number) => accumulator + value
-  )
+    (accumulator: number, value: number) => accumulator + value,
+  );
 }
 
 export const day1: Day = {
   part1: day1p1,
-  part2: day1p2
-}
+  part2: day1p2,
+};

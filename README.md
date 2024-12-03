@@ -1,9 +1,10 @@
 # adventofcode2024
+
 Trying out deno
 
 ## Requirements
 
-* Install deno (https://docs.deno.com/runtime/)
+- Install deno (https://docs.deno.com/runtime/)
 
 ## Running
 

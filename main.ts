@@ -13,9 +13,9 @@ if (import.meta.main) {
 
   days.forEach(
     (day, index) => {
-      console.log(`---------- Running day ${index + 1}`)
+      console.log(`---------- Running day ${index + 1}`);
       console.log(`Part 1: ${day.part1()}`);
       console.log(`Part 2: ${day.part2()}`);
-    }
-  )
+    },
+  );
 }
