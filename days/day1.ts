@@ -1,4 +1,4 @@
-import { Day } from "./day.ts";
+import { Day } from "../day.ts";
 
 function day1p1(): number {
   const _example_input: string = `3   4

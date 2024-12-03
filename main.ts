@@ -1,7 +1,7 @@
 import { Day } from "./day.ts";
-import { day1 } from "./day1.ts";
-import { day2 } from "./day2.ts";
-import { day3 } from "./day3.ts";
+import { day1 } from "./days/day1.ts";
+import { day2 } from "./days/day2.ts";
+import { day3 } from "./days/day3.ts";
 
 // Learn more at https://docs.deno.com/runtime/manual/examples/module_metadata#concepts
 if (import.meta.main) {

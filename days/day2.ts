@@ -1,4 +1,4 @@
-import { Day } from "./day.ts";
+import { Day } from "../day.ts";
 
 function isSafe(f: number[]): boolean {
   const gradient = f.reduce((merged: number[], c, index) => {

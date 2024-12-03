@@ -1,4 +1,4 @@
-import { Day } from "./day.ts";
+import { Day } from "../day.ts";
 
 function mul(text: string): number {
     const parsed = text.matchAll(/(mul\((\d+),(\d+)\))/gm)
