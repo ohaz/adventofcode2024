@@ -1,7 +1,7 @@
 import { Day } from "../day.ts";
 
 function split(text: string): string[][] {
-  let splitText = text.split(/\r?\n/);
+  const splitText = text.split(/\r?\n/);
   if (splitText[splitText.length - 1] == "") {
     splitText.pop();
   }
