@@ -111,7 +111,6 @@ MXMXAXMASX`;
   }, []);
   const counter: Map<string, number> = new Map();
   coordinates.forEach((coordinate) => {
-    if (`${coordinate.row},${coordinate.col}` === `5,3`) {console.log('waah')};
     counter.set(`${coordinate.row},${coordinate.col}`, (counter.get(`${coordinate.row},${coordinate.col}`) ?? 0) + 1);
   });
   let result = 0;
